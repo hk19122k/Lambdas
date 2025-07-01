@@ -9,8 +9,7 @@ public class onepiece {
         List<String> b = Arrays.asList("Zoro", "Sanji", "Buggy", "Luffy");
 
         b.stream() ///converts list to stream
-        .filter(n -> !n.equals("Buggy")) ///this is the lambda function that uses
-        predicate interface
+        .filter(n -> !n.equals("Buggy")) ///this is the lambda function that uses predicate interface
         .forEach(n -> System.out.println(n)); // this l function uses consumer
         interface
 
